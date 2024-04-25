@@ -1,0 +1,12 @@
+package home
+
+import "admin-panel/view/layout"
+
+templ Show() {
+	@layout.Base() {
+		<div class="bg-white p-8 rounded border w-96">
+			<h1 class="text-2xl font-bold">Welcome</h1>
+			<p class="text-gray-500">This is a simple dashboard built with Go, Templ and Tailwind.</p>
+		</div>
+	}
+}
