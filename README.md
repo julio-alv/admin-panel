@@ -3,9 +3,10 @@
 this is an example admin panel, it uses templ and golang
 
 # Running the project
-
-- `$ make run`
-- visit `localhost:3000`
+```sh
+make run
+```
+visit `localhost:3000`
 
 # Requirements
 
